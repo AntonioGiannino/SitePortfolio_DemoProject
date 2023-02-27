@@ -1,0 +1,25 @@
+*{
+        font-family: 'Rajdhani', sans-serif;
+        color: white;
+}
+
+/* NAVBAR */
+.navbar-custom{
+        background: rgba(255, 255, 255, 0);
+        border-radius: 19px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(9.9px);
+        -webkit-backdrop-filter: blur(9.9px);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* EFFECT */
+.hover:hover{
+        transition: 0.1s;
+        color: #DC3545;
+}
+
+.borderhover:hover{
+        transition: 0.1s;
+        border: 1px solid #DC3545
+}

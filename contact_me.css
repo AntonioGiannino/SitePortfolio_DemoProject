@@ -1,0 +1,10 @@
+.font_custom{
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 41px;
+}
+
+.bg-custom{
+    background-image: url(./Media/contact_me.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

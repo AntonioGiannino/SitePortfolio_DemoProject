@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Antonio Giannino - Project</title>
+    
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap" rel="stylesheet">
+    
+    <!-- CDN ICON BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    
+    <!-- CDN CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <!-- MY GLOBAL CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- MY PAGES CSS -->
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body class="bg-black">
+    
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-transparent navbar-custom position-relative z-1">
+        <div class="container-fluid">
+            <i class="bi bi-code-slash ps-2 me-5 fs-1"></i>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-view-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fs-4 me-5" aria-current="page" href="./index.html">
+                            <i class="bi bi-house"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4 me-5" href="./project.html">
+                            <i class="bi bi-folder"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4 me-5" href="./about_me.html">
+                            <i class="bi bi-person"></i>
+                        </a>
+                    </li>       
+                    <li class="nav-item">
+                        <a class="nav-link fs-4 me-2" href="./contact_me.html">
+                            <i class="bi bi-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- HEADER -->
+    <div class="container">
+        <div class="row d-flex justify-content-center position-relative navbar-custom my-4 borderhover">
+            <div id="carouselExampleCaptions" class="col-12 carousel slide carousel_custom carousel-fade p-3">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://picsum.photos/1250/700" class="d-block rounded img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="font_custom">Project 1</h5>
+                            <p class="lead">BlogTech</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/1250/701" class="d-block rounded img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="font_custom">Project 2</h5>
+                            <p class="lead">SitoPortfolio</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/1250/702" class="d-block rounded img-fluid"  alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="font_custom">Project 3</h5>
+                            <p class="lead">Presto.it</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <i class="bi bi-caret-left fs-1 hover"></i>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <i class="bi bi-caret-right fs-1 hover"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <svg class="svg_custom position-absolute" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#DC3545" d="M42.6,-74.3C53.2,-67.6,58.4,-52.2,61,-38.3C63.6,-24.5,63.6,-12.3,64.6,0.6C65.6,13.4,67.7,26.8,65,40.6C62.4,54.4,55,68.5,43.4,73.4C31.8,78.3,15.9,73.9,0.8,72.5C-14.2,71,-28.4,72.4,-42.3,68.8C-56.1,65.2,-69.5,56.6,-77.6,44.2C-85.7,31.9,-88.5,16,-84.2,2.5C-80,-11,-68.7,-22.1,-58.7,-31.2C-48.8,-40.3,-40.2,-47.5,-30.6,-54.9C-21.1,-62.2,-10.5,-69.7,2.7,-74.4C16,-79.1,31.9,-81.1,42.6,-74.3Z" transform="translate(100 100)" />
+        </svg>
+    </div>
+    
+    <!-- FOOTER -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 navbar-custom">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 lead">© 2023 Antonio Giannino, Inc</span>
+        </div>
+        
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3 fs-4">
+            <a href="https://it-it.facebook.com/">
+              <i class="bi bi-facebook"></i>
+            </a> 
+          </li>
+          <li class="ms-3 fs-4">
+            <a href="https://www.instagram.com/">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </li>
+          <li class="ms-3 fs-4 hover pe-5">
+            <a href="https://it.linkedin.com/">
+              <i class="bi bi-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </footer>
+    
+    <!-- CDN JS BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+
+</html>

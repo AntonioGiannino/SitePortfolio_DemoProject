@@ -1,0 +1,10 @@
+.font_custom{
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 60px;
+}
+
+.bg-custom{
+    background-image: url(./Media/body_skills.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

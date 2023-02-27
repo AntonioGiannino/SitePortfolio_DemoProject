@@ -1,0 +1,11 @@
+ .font_custom{
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 65px;
+}
+
+.svg_custom{
+    height: 1000px;
+    right: 250px;
+    bottom: 110px;
+    z-index: -1;
+}

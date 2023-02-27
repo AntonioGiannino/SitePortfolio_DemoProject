@@ -1,0 +1,26 @@
+.font_custom{
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 50px;
+}
+
+.svg_custom{
+    height: 1700px;
+    right: 250px;
+    bottom: 0px;
+    z-index: -1;
+}
+
+.carousel_custom{
+    width: 100%;
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 17px;
+    width: 17px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.carousel-indicators [data-bs-target]:hover {
+    background-color:  #DC3545;
+}
